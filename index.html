@@ -2,61 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta
-            name="viewport"
-            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    >
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Google</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="container">
-        <header>
-            <nav>
-                <div>
-                    <a href="#">About</a>
-                    <a href="#">Store</a>
-                </div>
-                <div>
-                    <a href="#">Gmail</a>
-                    <a href="#">Images</a>
-                    <a href="#">Apps</a>
-                    <span id="account"><a href="#">L</a></span>
-                </div>
-            </nav>
-        </header>
-        <main>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Store</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#">Apps</a></li>
+                <li><a href="#" id="sign-in">Sign In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div><img src="images/googlelogo_color_272x92dp.png" alt=""></div>
+        <form action="">
+            <label for="search-text"></label>
+            <input id="search-text" type="text">
             <div>
-                <img src="images/googlelogo_color_272x92dp.png" alt="Google logo">
+                <button>Google Search</button>
+                <button>I'm Feeling Lucky</button>
             </div>
-
-            <div id="search">
-                <form id="search-form" action="">
-                    <label for="search-input"></label>
-                    <input type="text" id="search-input" name="search">
-                    <div>
-                        <button>Google Search</button>
-                        <button>I'm Feeling Lucky</button>
-                    </div>
-                </form>
-            </div>
-
-        </main>
-        <footer>
-            <nav>
-                <div>
-                    <a href="#">Advertising</a>
-                    <a href="#">Business</a>
-                    <a href="#">How Search works</a>
-                </div>
-                <div>
-                    <a href="#">Privacy</a>
-                    <a href="#">Terms</a>
-                    <a href="#">Settings</a>
-                </div>
-            </nav>
-        </footer>
-    </div>
+        </form>
+    </main>
+    <footer>
+        <p><a href="#">Carbon neutral since 2007</a></p>
+        <nav>
+            <ul>
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">How Search works</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 </html>
